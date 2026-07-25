@@ -7,9 +7,6 @@ public class Espada extends Arma{
     public Espada(String nome, Material material){
         super(nome, material);
     }
-    public Espada{
-        super();
-    }
 
     @Override
     public void atacar(){
