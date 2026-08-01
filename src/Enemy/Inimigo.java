@@ -4,6 +4,20 @@ import armaduras.Armadura;
 import armas.Arma;
 
 public abstract class Inimigo {
+
+    public Inimigo(int vida, int level, int defesa, int dano,
+                   Armadura capacete, Armadura peitoral, Armadura botas,
+                   Arma arma) {
+        this.vida = vida;
+        this.level = level;
+        this.defesa = defesa;
+        this.dano = dano;
+        this.capacete = capacete;
+        this.peitoral = peitoral;
+        this.botas = botas;
+        this.arma = arma;
+    }
+
     protected int vida;
 
     protected int level;
